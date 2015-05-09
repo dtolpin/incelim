@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <element name="root">
+      <ref name="foo1"/>
+      <ref name="foo2"/>
+    </element>
+  </start>
+  <define name="foo1">
+    <element name="foo1">
+      <empty/>
+    </element>
+  </define>
+  <define name="foo2">
+    <element name="foo2">
+      <empty/>
+    </element>
+  </define>
+</grammar>

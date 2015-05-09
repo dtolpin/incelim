@@ -1,0 +1,18 @@
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+   <!-- DocBook imported stylesheets -->
+   <uri name="http://docbook.sourceforge.net/release/xsl/current/html/docbook.xsl" uri="../../docbook/xsl/html/docbook.xsl"/>
+   <uri name="http://docbook.sourceforge.net/release/xsl/1.64.1/html/docbook.xsl" uri="../../docbook/xsl/html/docbook.xsl"/>
+
+   <uri name="http://docbook.sourceforge.net/release/xsl/current/fo/docbook.xsl" uri="../../docbook/xsl/fo/docbook.xsl"/>
+   <uri name="http://docbook.sourceforge.net/release/xsl/1.64.1/fo/docbook.xsl" uri="../../docbook/xsl/fo/docbook.xsl"/>
+
+   <uri name="http://docbook.sourceforge.net/release/images/draft.png" uri="../../docbook/xsl/images/draft.png"/>
+
+   <public publicId="-//OASIS//DTD DocBook XML V4.2//EN"  uri="../../docbook/docbookx.dtd"/>
+   <public publicId="-//Norman Walsh//DTD Website Autolayout V2.5.0//EN"  uri="../../docbook/website/schema/dtd/autolayout.dtd"/>
+   <public publicId="-//Norman Walsh//DTD Website Layout V2.5.0//EN"  uri="../../docbook/website/schema/dtd/layout.dtd"/>
+   <public publicId="-//Norman Walsh//DTD Website V2.5.0//EN"  uri="../../docbook/website/schema/dtd/website.dtd"/>
+
+   <!-- DocBook DTD: append a separate catalog file -->
+   <nextCatalog catalog="../../docbook/docbook.cat"/> 
+</catalog>
